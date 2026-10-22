@@ -35,7 +35,7 @@ public class App {
             t.setDaemon(true);
             return t;
         }));
-        server.createContext("/health", ex -> sendText(ex, 200, "application/json", "{\"status\":\"UP\"}"));
+        server.createContext("/health", ex -> sendText(ex, 200, "application/json", "{\"status\":\"DOWN\"}"));
         server.createContext("/api/info", ex -> sendText(ex, 200, "application/json",
                 "{\"version\":\"" + VERSION + "\",\"videoBytes\":" + video.length + "}"));
         server.createContext("/video", ex -> streamVideo(ex, video));

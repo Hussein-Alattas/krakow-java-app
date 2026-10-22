@@ -1,0 +1,19 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      java: corretto21          # Java 21 for the build
+  build:
+    commands:
+      - mvn -B clean package    # compile + run unit tests + create target/krakow-app.jar
+  post_build:
+    commands:
+      - sed -i 's/\r$//' scripts/*.sh   # make sure the scripts have Linux line endings
+      - chmod +x scripts/*.sh           # make them executable
+
+artifacts:
+  files:                        # only what CodeDeploy needs, nothing else
+    - target/krakow-app.jar
+    - appspec.yml
+    - scripts/**/*

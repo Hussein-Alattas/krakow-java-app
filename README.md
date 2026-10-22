@@ -13,7 +13,7 @@
 ## AWS Development Architecture:
 
 
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/aa0b28e5-f580-4915-8061-48b5dacdb47c" />
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/a604bafb-05f0-4cf4-9936-83cdb2e44e3c" />
 
 
 
@@ -117,7 +117,7 @@ systemctl enable --now codedeploy-agent
 * Create the Pipeline and observe the stages
 * The Pipeline should look like 
 
-<img width="1974" height="556" alt="image" src="https://github.com/user-attachments/assets/0a0fe213-593f-4858-acc3-661ddf24f27e" />
+<img width="1972" height="484" alt="image" src="https://github.com/user-attachments/assets/dceb26ee-f894-47d5-bcc1-ec03e5fe01d1" />
 
 # CI/CD tests: 
 
@@ -187,5 +187,9 @@ systemctl enable --now codedeploy-agent
 
 # AI- Generated Diagrams:
 
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/fd5462f4-3e29-4400-90fa-b67e3ee611f0" />
+
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/840ccf2b-2850-4232-9cc2-e87b17fcd0ab" />
+
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/0bb68966-c097-4d0d-af54-70fc38993661" />
+
 

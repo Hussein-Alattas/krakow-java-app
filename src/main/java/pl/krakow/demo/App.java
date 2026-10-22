@@ -12,7 +12,7 @@ import java.util.concurrent.Executors;
 
 public class App {
 
-    static final String VERSION = "1.0.0";
+    static final String VERSION = "1.1.0";
 
     public static void main(String[] args) throws IOException {
         int port = Integer.parseInt(System.getenv().getOrDefault("PORT", "8080"));

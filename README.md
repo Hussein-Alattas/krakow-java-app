@@ -155,7 +155,7 @@ systemctl enable --now codedeploy-agent
 
 
 
-# Errors & fixes: 
+# Errors & Fixes: 
 
 **Note:** These are the errors I hit while building this project. I'm documenting them so I don't repeat them, and for general awareness.
 
